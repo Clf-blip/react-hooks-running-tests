@@ -1,7 +1,7 @@
 // src/__tests__/Article.test.js
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom'; // for toBeInTheDocument()
-import Article from '../components/Article'; // adjust if your path is different
+import '@testing-library/jest-dom'; 
+import Article from '../components/Article'; 
 
 test("displays the text 'please pass this test'", () => {
   render(<Article />);
